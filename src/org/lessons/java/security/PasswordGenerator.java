@@ -17,8 +17,20 @@ public class PasswordGenerator {
         int monthOfBirthUser;
         int yearOfBirthUser;
 
+        //Assegiamo valori alle variabili
+        nameUser = "Renato";
+        surnameUser = "Valdivia";
+        favoriteColorUser ="Verde";
+        dayOfBirthUser = 27;
+        monthOfBirthUser = 9;
+        yearOfBirthUser = 1999;
+
         //Dichiariamo la variabile contenente la somma della data di nascita dell'utente
         int somDateUser = dayOfBirthUser + monthOfBirthUser + yearOfBirthUser;
+
+        //Mandiamo la nostra password a video
+
+        System.out.println("La tua password è: " + nameUser + "-" + surnameUser + "-" + favoriteColorUser + "-" + somDateUser);
 
 
     }
