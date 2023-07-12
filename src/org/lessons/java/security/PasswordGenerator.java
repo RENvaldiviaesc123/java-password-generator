@@ -9,6 +9,17 @@ package org.lessons.java.security;
 public class PasswordGenerator {
     public static void main(String[] args) {
     //Dichiariamo le variabili
+        String nameUser;
+        String surnameUser;
+        String favoriteColorUser;
+        //Dichiariamo la data di nascita
+        int dayOfBirthUser;
+        int monthOfBirthUser;
+        int yearOfBirthUser;
+
+        //Dichiariamo la variabile contenente la somma della data di nascita dell'utente
+        int somDateUser = dayOfBirthUser + monthOfBirthUser + yearOfBirthUser;
+
 
     }
 }
